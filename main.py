@@ -14,7 +14,7 @@ import os
 face_mesh = mp.solutions.face_mesh.FaceMesh(
     min_detection_confidence=0.1,
     min_tracking_confidence=0.1,
-    max_num_faces=1
+    max_num_faces=2
 )
 
 cam = cv2.VideoCapture(0)
